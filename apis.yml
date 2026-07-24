@@ -1,7 +1,19 @@
 aid: calldesk
 name: CallDesk
-description: CallDesk is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Calldesk (calldesk.ai) is a French-founded, EU-focused provider of AI voice
+  agents that automate inbound and outbound customer-service phone calls for
+  enterprise contact centers. Its cloud platform designs, deploys, and monitors
+  custom LLM-driven callbots that qualify, identify, and route callers, answer
+  FAQs, create tickets, and transfer to human agents with summaries, speaking
+  80+ languages and integrating with existing SIP/telephony stacks and CRM/help-desk
+  tools such as Salesforce and Zendesk. Calldesk processes tens of millions of
+  calls per year for enterprises across insurance, energy, banking, retail,
+  logistics, travel, and auto-leasing, marketing outcomes such as up to 80%
+  call automation and up to 50% cost reduction. Integrations are delivered via
+  a REST API and data export (sFTP data lake); there is no public developer
+  portal or OpenAPI. Added to the API Evangelist network as a point-nine
+  portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/calldesk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/E8tAQ42y4oi2bGZBWfb5eoLzbs.png
 tags:
 - Company
+- Voice AI
+- Conversational AI
+- Contact Center
+- Customer Service
+- Call Center Automation
+- Voice Agents
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://calldesk.ai
+- type: Blog
+  url: https://calldesk.ai/blog
+- type: Integrations
+  url: https://calldesk.ai/integrations
+- type: Support
+  url: https://calldesk.ai/contact
+- type: Login
+  url: https://studio.calldesk.fr/login
+- type: TermsOfService
+  url: https://calldesk.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://calldesk.ai/privacy-policy
+- type: Compliance
+  url: https://calldesk.ai/security
+- type: DomainSecurity
+  url: security/calldesk-domain-security.yml
+- type: Conformance
+  url: conformance/calldesk-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
