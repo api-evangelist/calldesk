@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CallDesk is a company surfaced as a portfolio company of point-nine and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Calldesk (calldesk.ai) is a French-founded, EU-focused provider of AI voice agents that automate inbound and outbound customer-service phone calls for enterprise contact centers. Its cloud platform designs, deploys, and monitors custom LLM-driven callbots that qualify, identify, and route callers, answer FAQs, create tickets, and transfer to human agents with summaries, speaking 80+ languages and integrating with existing SIP/telephony stacks and CRM/help-desk tools such as Salesforce and Zendesk. Calldesk processes tens of millions of calls per year for enterprises across insurance, energy, banking, retail, logistics, travel, and auto-leasing, marketing outcomes such as up to 80% call automation and up to 50% cost reduction. Integrations are delivered via a REST API and data export (sFTP data lake); there is no public developer portal or OpenAPI. Added to the API Evangelist network as a point-nine portfolio company.
 
-Backed by: point-nine — https://calldesk.ai
+**Areas:** Company · Voice AI · Conversational AI · Contact Center · Customer Service · Call Center Automation · Voice Agents · Enterprise
+
+## CallDesk on APIs.io
+
+Everything profiled for CallDesk is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/calldesk/](https://apis.io/providers/calldesk/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Calldesk Domain Security](https://apis.io/security/calldesk/calldesk-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://calldesk.ai)
+- [Support](https://calldesk.ai/contact)
+- [Blog](https://calldesk.ai/blog)
+- [Compliance](https://calldesk.ai/security)
+- [Terms of service](https://calldesk.ai/terms-of-service)
+- [Privacy policy](https://calldesk.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 35.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/calldesk/](https://apis.io/providers/calldesk/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CallDesk: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/calldesk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
